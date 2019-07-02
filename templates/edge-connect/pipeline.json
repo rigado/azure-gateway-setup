@@ -1,0 +1,10 @@
+{
+    "filters": [
+        "adv2mapf",                            
+        "[SENSORTYPE]",                                                 
+        "injectf",
+        "aggf",
+        "map2jsonf",
+        "[HOSTFILTER]"
+    ]
+}

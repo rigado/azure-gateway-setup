@@ -1,0 +1,10 @@
+{
+    "edgedirectUser": "",
+    "azureInfluxUrl": "",
+    "influxUser": "",
+    "influxPass": "",
+    "azureGrafanaUrl": "",
+    "grafanaUser": "",
+    "grafanaPass": "",
+    "azureIoTHubConnectionString": ""
+}

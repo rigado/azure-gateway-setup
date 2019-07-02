@@ -1,0 +1,119 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "gnetId": null,
+    "graphTooltip": 0,
+    "id": null,
+    "iteration": 1557417512689,
+    "links": [],
+    "panels": [
+      
+    ],
+    "schemaVersion": 18,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+      "list": [
+        {
+          "allValue": null,
+          "current": {
+            "text": "dd0849bfd6c5 + e9c4f1113bfc",
+            "value": [
+              "dd0849bfd6c5",
+              "e9c4f1113bfc"
+            ]
+          },
+          "datasource": "[INFLUXDB]",
+          "definition": "SHOW TAG VALUES WITH KEY = \"macAddress\"",
+          "hide": 0,
+          "includeAll": true,
+          "label": "Beacon",
+          "multi": true,
+          "name": "Beacon",
+          "options": [],
+          "query": "SHOW TAG VALUES WITH KEY = \"macAddress\"",
+          "refresh": 1,
+          "regex": "",
+          "skipUrlSync": false,
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": null,
+          "current": {
+            "text": "",
+            "value": [
+              ""
+            ]
+          },
+          "datasource": "[INFLUXDB]",
+          "definition": "SHOW MEASUREMENTS",
+          "hide": 2,
+          "includeAll": true,
+          "label": null,
+          "multi": true,
+          "name": "Gateway",
+          "options": [],
+          "query": "SHOW MEASUREMENTS",
+          "refresh": 1,
+          "regex": "",
+          "skipUrlSync": false,
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        }
+      ]
+    },
+    "time": {
+      "from": "now-15m",
+      "to": "now"
+    },
+    "timepicker": {
+      "refresh_intervals": [
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ],
+      "time_options": [
+        "5m",
+        "15m",
+        "1h",
+        "6h",
+        "12h",
+        "24h",
+        "2d",
+        "7d",
+        "30d"
+      ]
+    },
+    "timezone": "",
+    "title": "TITLE",
+    "uid": null,
+    "version": 1
+  }

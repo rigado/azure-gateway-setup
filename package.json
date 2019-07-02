@@ -1,0 +1,28 @@
+{
+  "name": "customerdemoprovision",
+  "version": "1.0.0",
+  "description": "Scripts for provisioning a gateway on aws or azure and setting up a customer demo for it.",
+  "main": "customerDemoSetup.js",
+  "dependencies": {
+    "azure": "^2.3.1-preview",
+    "azure-iot-provisioning-device-mqtt": "^1.5.4",
+    "azure-iothub": "^1.9.9",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "q": "^1.5.1",
+    "request": "^2.88.0",
+    "shell-exec": "^1.0.2",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.rigado.com:Tulkas/internal-tools/customer-demo-provision.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

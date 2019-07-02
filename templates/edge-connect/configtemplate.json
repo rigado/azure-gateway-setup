@@ -1,0 +1,38 @@
+{
+	"apps": {
+		"rigado-edge-connect": {
+			"values": {
+                "service": {
+                    "filters": {
+                        "adv2mapf": {
+                            "type": "adv"
+                        },
+                        "aggf": {
+                            "type": "aggregate",
+                            "config": {
+                                "mode": "map",
+                                "key": "mac",
+                                "interval": "10s",
+                                "mapMax": 2000
+                            }
+                        },
+                        "map2jsonf": {
+                            "type": "json"
+                        },
+                        "injectf": {
+                            "type": "inject",
+                            "config": {
+                                "keypairs": {
+                                    "serial": "",
+                                    "timestamp": ""
+                                }
+                            }
+                        }
+                    },
+                    "pipelines": {                        
+                    }
+                }
+			}
+		}
+	}
+}
